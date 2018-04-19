@@ -126,5 +126,31 @@ p2 {
 }
 
 /* Contact Content Section */
-/* Contact /*
+/* Contact */
 
+.contact {
+    display: block;
+    position: absolute;
+    top: 13.5%;
+    left: 14%;
+    height: 500px;
+    width: 70%;
+    background-color: #ffffff;
+}
+
+#form {
+    color: #777777;
+    font-family: sans-serif;
+    margin-left: 5%; 
+}
+
+#submit {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
