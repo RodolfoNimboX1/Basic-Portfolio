@@ -30,6 +30,18 @@ a {
     color: #777777;
 }
 
+a1:hover {
+    color: blue;
+}
+
+span :hover {
+    color: blue;
+}
+
+a :hover {
+    background-color: paleturquoise;
+}
+
 /* chat window*/
 
 #Chat {
@@ -162,4 +174,17 @@ p2 {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+
+#submit:hover {
+    background: transparent;
+    color: #4aaaa5;
+    border-color: #4aaaa5;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.contact :focus {
+    background: gray;
+    color: white;
 }
