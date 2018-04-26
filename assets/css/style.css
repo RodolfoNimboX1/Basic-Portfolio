@@ -42,6 +42,28 @@ a :hover {
     background-color: paleturquoise;
 }
 
+/* Width responsive */
+
+@media screen and (max-width: 991px){
+    #logo {
+        margin-left: 0px;
+    }
+    #navbar {
+        font-size: 80%;
+        margin-right: 5%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #logo {
+        margin-left: 0px;
+    }
+    #navbar {
+        font-size: 70%;
+        margin-right: 2%;
+    }
+}
+
 /* chat window*/
 
 #Chat {
@@ -49,6 +71,14 @@ a :hover {
     bottom: 0px;
     right: 10px;
     z-index: 10;
+}
+
+/* Width Responsive */
+
+@media screen and (max-width: 700px) {
+    #Chat {
+        width: 40px !important;
+          }
 }
 
 /* footer section */
@@ -73,6 +103,14 @@ a :hover {
     float: center;
     text-align: center;
     padding-top: 30px;
+}
+
+/* Width Responsive */
+
+@media screen and (max-width: 700px) {
+#footnavbar {
+    font-size: 70%;
+            }
 }
 
 /* Index Content Section */
@@ -115,6 +153,25 @@ p2 {
     text-align: justify;
 }
 
+/* Width responsive */
+
+@media screen and (max-width: 991px) {
+    .about {
+    overflow: scroll;
+    }  
+}
+
+@media screen and (max-width: 700px) {
+    .about {
+        height: 60%;
+        position: absolute;
+        top: 20%;
+    }
+    #selfie {
+        width: 100px !important;
+    }
+}
+
 /* Portfolio Content Section */
 /* Portfolio */
 
@@ -144,6 +201,29 @@ p2 {
     width:  500px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+/* Width responsive */
+
+@media screen and (max-width: 991px) {
+    .portfolio {
+        height: 60%;
+        position: absolute;
+        top: 20%;
+        overflow: auto;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    #video {
+        width: 200px !important;
+        height: 250px;
+    }
+    #blog {
+        width: 200px !important;
+        height: 250px;
+    }
 }
 
 /* Contact Content Section */
